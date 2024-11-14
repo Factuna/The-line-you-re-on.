@@ -1,0 +1,68 @@
+/* Общие стили для всего сайта */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f3f2; /* Нежный светлый фон */
+    color: #555; /* Тёмно-серый для текста */
+}
+
+header {
+    background-color: #a8d8d8; /* Нежный бирюзовый цвет для шапки */
+    color: #333; /* Тёмно-серый для текста */
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal; /* Меньше жирности */
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #6d8b8f; /* Мягкий цвет для ссылок */
+    font-weight: normal; /* Меньше жирности */
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #3a595c; /* Темно-бирюзовый при наведении */
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px;
+    background-color: #ffffff; /* Белый фон для основного контента */
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 8px; /* Скруглённые углы */
+    line-height: 1.6; /* Межстрочный интервал для лучшей читаемости */
+}
+
+/* Увеличиваем расстояние между словами */
+p {
+    word-spacing: 0.2em; /* Пространство между словами */
+    font-size: 1.1em; /* Немного увеличиваем размер шрифта */
+}
+
+/* Отступы между абзацами */
+p {
+    margin-bottom: 20px; /* Отступы между абзацами */
+}
+
+footer {
+    background-color: #a8d8d8; /* Тот же цвет, что и у шапки */
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
